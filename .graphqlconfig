@@ -1,0 +1,12 @@
+{
+	"schemaPath": "./server/schema.graphql",
+	"includes": ["**/*.graphql"],
+	"extensions": {
+		"endpoints": {
+			"Default Introspection Endpoint": {
+				"url": "http://localhost:6006/graphql",
+				"introspect": true
+			}
+		}
+	}
+}
